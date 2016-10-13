@@ -1,0 +1,208 @@
+﻿<!DOCTYPE html>
+<!--*/ftp://BlogRicardoLara%5C$BlogRicardoLara@waws-prod-blu-041.ftp.azurewebsites.windows.net/site/wwwroot/  -->
+<html>
+<head manifest="/manifiesto/manifiesto.cache">
+    <title> Mi BLog Ricardo Lara </title>
+    <link rel="shortcut icon" type="image/x-icon" href="foto/favicon1.ico" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="WebLog Ricardo Lara" />
+    <meta name="viewport" content="width=device−width, initial−scale=1.0" />
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+</head>
+
+
+<body>
+    <div class="contenedor">
+        <div id="cajaheader"></div>
+        <div id="principal" itempsope itemtype"http//www.data.vocabulary.org/person">
+
+        <header>
+
+            <div id="logo"></div>
+            <h1><span itemprop="name">Ricardo Lara</span></h1>
+            <h2><span itemprop="title">Analista de Desarrollo SENA</span></h2>
+            <nav>
+                <ul>
+                    <li><a href="../index.html"><canvas id="iconoinicio" width="50%" height="50%"> </canvas> <br />Inicio</a></li>
+                    <li><a href="noticiasb.html"><canvas id="icononoticias" width="50%" height="50%"> </canvas><br /> Noticias</a></li>
+                    <li><a href="sobremib.html"><canvas id="iconosobreMi" width="50%" height="50%"></canvas><br /> Sobre mi</a></li>
+                    <li><a href="../contactob.aspx"><canvas id="iconocontacto" width="50%" height="50%"> </canvas><br /> Contacto</a></li>
+
+                </ul>
+            </nav>
+
+        </header>
+        <div id="contenido">
+            <section id="sobremi">
+                <span itemprop="photo"><div id="mifoto"></div><!--<img src="foto/ricardolara.jpg" width=50px height=50px/>--></span>
+                <p>Actualmente estoy cursando 8 trimestre de ADSI en el SENA y Tengo conocimiento básicos en C#, .Net, MVC, Microsoft Azure </br> SQL Server, HTML5, CSS3, JQuery.<br />Inicie mi etapa productiva el 17 de Agosto del presente año y actualmente estoy buscando una empresa para obtener mas conocimiento.</p>
+            </section>
+
+
+            <section>
+
+                <ul class="menu">
+                    <li>
+                        Mis series favoritas
+                        <ul>
+                            <li>Dragon Ball, Dragon ball Z y Dragon Ball Super</li>
+                            <li>Los Simpsons</li>
+                            <li>SmallVille</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Deporte Favoritos
+                        <ul>
+                            <li>Futbol</li>
+                            <li>Baloncesto</li>
+                            <li>Tejo</li>
+                        </ul>
+                    </li>
+
+                    <li>
+                        Peliculas Favoritas
+                        <ul>
+                            <li>Transformers</li>
+                            <li>Buscando a Nemo</li>
+                            <li>Resident Evil</li>
+                        </ul>
+
+
+                    </li>
+
+
+
+                </ul>
+
+
+            </section>
+        </div>
+        <footer>
+            <h6>(c) 2016 - WebLog Ricardo Lara</h6>
+            <h6>
+                <div class="vcard"></div>
+                <div><span class="name">Ricardo Lara</span>-<span class="locality">Bogotá</span>-<span class="region">Cundinamarca</span>-<span class="countryname">Colombia</span></div>
+                <div>
+                    <span class="tel">3102186888</span>-<span class="email">frlara@misena.edu.co</span>
+                </div>
+            </h6>
+
+            <!--contador de visitas-->
+            <script type="text/javascript">
+           if (localStorage.pagecount) {localStorage.pagecount=Number(localStorage.pagecount)+1;} else {localStorage.pagecount=1;}
+             document.write("Has visitado mi pagina  "+ localStorage.pagecount+"   veces");
+            </script>
+            <script type="text/javascript">
+
+            if (sessionStorage.pagecount){sessionStorage.pagecount=Number(sessionStorage.pagecount)+1;} else {sessionStorage.pagecount= 1;}
+                document.write("En esta sesion has visitado mi pagina:  " +sessionStorage.pagecount + "veces");
+            </script>
+        </footer>
+
+
+    </div>
+</body>
+</div>
+</html>
+<script type="text/javascript">
+
+	var miotrocolor ="Gray";
+	var micolor="Black";
+	var mitercercolor="White";
+	var escalar = 0.5;
+	// Dibujo el icono sobre Mi
+
+	var c=document.getElementById("iconosobreMi");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escalar*50,escalar*25,escalar*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+    cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escalar*50,escalar*90,escalar*40,Math.PI,Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+
+    // Dibujo el icono contacto
+
+    var c=document.getElementById("iconocontacto");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(miotrocolor);
+	cxt.beginPath();
+	cxt.arc(escalar*50-10,escalar*25,escalar*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+    cxt.fillStyle=(miotrocolor);
+	cxt.beginPath();
+	cxt.arc(escalar*50-10,escalar*90,escalar*40,Math.PI,Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+
+    cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escalar*50+10,escalar*25,escalar*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+    cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escalar*50+10,escalar*90,escalar*40,Math.PI,Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+
+    // Dibujo el icono Inicio
+
+    var c=document.getElementById("iconoinicio");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escalar*50,escalar*50,escalar*40,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+	cxt.fillStyle=(mitercercolor);
+	cxt.beginPath();
+	cxt.arc(escalar*50,escalar*50,escalar*30,0,Math.PI*2,true);
+    cxt.closePath;
+	cxt.fill();
+
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escalar*50,escalar*50,escalar*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+
+    // Dibujo el icono Noticias
+
+    var c=document.getElementById("icononoticias");
+	var cxt=c.getContext("2d");
+
+	cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escalar*50,escalar*50,escalar*20,0,Math.PI*2,true);
+	cxt.closePath;
+	cxt.fill();
+
+    cxt.fillStyle=(micolor);
+	cxt.beginPath();
+	cxt.arc(escalar*50,escalar*50,escalar*40,Math.PI,Math.PI*2,false);
+	cxt.closePath;
+	cxt.fill();
+
+
+</script>

@@ -1,0 +1,823 @@
+﻿*{
+
+padding:0;
+margin:0;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+box-sizing:border-box;
+
+
+}
+
+.contenedor{
+width:100%;
+
+margin:0 auto;
+overflow:hidden;
+
+
+
+}
+
+
+/* Fuentes personalizadas */
+
+
+
+
+/* estilos basicos*/
+
+h1,h2,h3,h4,h5,h6{
+
+font-family:bold;
+
+}
+
+
+h1{
+
+transform:translate:(150px 0px);
+position:relative;
+color:white;
+font-size:36px;
+top:-20%;
+margin-top:10px;
+letter-spacing:0px;
+display:inline;
+text-shadow:2px 2px 5px rgba(0,0,0,0.5);
+
+}
+
+h2{
+
+color:white;
+font-size:20px;
+top:-20%;
+margin-top:10px;
+letter-spacing:0px;
+text-shadow:2px 2px 5px rgba(0,0,0,0.5);
+}
+
+h3{
+color:white;
+margin:0px;
+padding:0px;
+font-size:24px;
+font-weight: bold;
+text-shadow:1px 1px 3px rgba(0,0,0,0.5);
+}
+h4{
+color:white;
+
+margin:0px;
+padding:0px;
+font-size:18px;
+font-weight: bold;
+text-shadow:2px 2px 5px rgba(0,0,0,0.5);
+}
+
+time{
+
+color:white;
+
+
+}
+p{
+
+color:white;	
+font-family:Arial;
+font-size:15px;
+text-align:justify;
+text-shadow:1px 1px 3px rgba(0,0,0,0.4);
+}
+
+
+/*menu de navegacion*/
+
+nav{
+
+display:inline;
+float:right;
+margin:20px;
+background-color:darkgray;
+}
+
+nav ul{
+font-size:12px;
+padding-left:0px;
+margin-left:0px;
+background-color:gray;
+color:white;
+width:50%;
+
+font-family:Arial;
+position:relative;
+display:inline;
+
+}
+nav ul li{
+display:inline;
+text-align:center;
+}
+nav ul li a{
+background:darkgray;
+color: white;
+text-decoration:none;
+float:right;
+border: 1px solid white;
+border-radius: 0px 10px 0px 10px;
+box-shadow:0px 0px 5px white;
+width:80px;
+
+}
+nav ul li a:hover{
+background:white;
+color:black;
+box-shadow: 0px 0px 25px white;
+
+}
+canvas{
+border:0px solid white;
+
+
+}
+
+
+/*Maquetacion principal*/
+body{
+text-align:center;
+margin:0px;
+background:gray;
+background:url('../img/negro.jpg');
+}
+#principal{
+text-align:left;	
+margin:auto;
+width:80%;
+height:100%;
+
+position:relative;
+}
+
+#cajaheader{
+
+width:100%;
+height:100px;
+position:absolute;
+background:rgba(100,100,100,0.5);
+box-sizing:border-box;
+padding:0px;
+
+}
+
+header{
+display:table;
+margin:auto;
+text-align:left;
+width:100%;
+height:100px;
+box-sizing:border-box;
+padding:0px;
+overflow:hidden;
+border:2px solid white;
+border-radius:5px 35px 0px 0px;
+box-shadow: 0px 0px 10px white;
+}
+#logo{
+
+width:100px;
+height:100px;
+display:inline;
+position:relative;
+}
+
+/*  Este id Footer lo hice para el contactob */
+#footer{
+
+display:table;	
+margin:auto;
+text-align:center;
+width:80%;
+background:darkgray;
+border: 2px solid white;
+border-radius:0px 0px 5px 35px;
+box-shadow:0px 0px 10px white;
+box-sizing:border-box;
+padding:0px;
+color:black;
+
+
+}
+
+footer{
+display:table;	
+margin:auto;
+text-align:center;
+width:100%;
+background:darkgray;
+border: 2px solid white;
+border-radius:0px 0px 5px 35px;
+box-shadow:0px 0px 10px white;
+box-sizing:border-box;
+padding:0px;
+color:black;
+
+}
+/*contenido    el fondo debajo de los articulos*/
+
+#contenido{
+width:100%;
+border: 2px solid white;
+border-radius:0px 0px 5px 35px;
+box-shadow:0px 0px 10px white;
+background:rgba(255,255,255,0.2);
+
+/* cambio los articulos */
+}
+article{
+width:100%;
+background:rgba(255,255,255,0.2);
+margin:10px;
+height:100%;
+display:table;
+border:1px solid white;
+border-radius: 0px 25px 0px 25px;
+box-shadow:3px 3px 20px white;
+padding: 10px 10px 10px 150px;
+opacity:0.8;
+
+/* le cuadre la margen al -2px y el width al 100% */
+margin-left:-2px;
+
+box-sizing:border-box;
+
+transition:opacity 1s,box-shadow 1s,transform 1s,background 1s;
+transform:scale(1,1);
+}
+
+article:hover{
+opacity:1;
+transform:scale(1.1,1.1);
+background:rgba(255,100,100,1);
+}
+
+time{
+
+font-family:Arial;
+
+
+}
+
+article:hover{
+box-shadow: 0px 0px 25px white;
+
+
+
+}
+aside{
+float:right;
+display:inline-table;
+width:20%;
+margin:10px;
+padding:10px;
+border: 1px solid white;
+border-radius: 0px 25px 0px 25px;
+box-shadow:3px 3px 10px black;
+}
+aside ul{
+
+width:100%;
+height:100%;
+padding-left:0;
+padding-right:0;
+color:white;
+float:left;
+font-family:Arial;
+font-size:15px;
+text-decoration:none;
+list-style:none;
+}
+
+aside ul li{
+width:100%;
+text-decoration:none;
+border: 1px solid white;
+border-radius: 0px 5px 0px 5px;
+text-decoration:none;
+}
+aside ul li a{
+
+width:100%;
+height:30px;
+overflow:hidden;
+text-decoration:none;
+color:black;
+}
+aside ul li a:hover{
+
+color:White;
+
+
+
+
+}
+
+#iconoinicio{
+
+width:15;
+box-sizing:border-box;
+padding:0px;
+}
+
+#sobremi{
+width:100%;
+height:120%;
+background:blue;
+color:white;
+display:table;
+background:black;
+font-size:10px;
+text-decoration:none;
+text-align:justify;
+overflow:hidden;
+}
+#sobremi{
+color:white;
+text-decoration:none;
+}
+#mifoto{
+
+width:100px;
+height:100px;
+font-family:arial;
+font-size:20px;
+color:white;
+text-align:left;
+background:url('../foto/ricardoLara.jpg');
+background-rotate:90%;
+background-size:100% 100%;
+background-repeat:no-repeat;
+display:box;
+border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+float:left;
+margin:10px;
+animation:parpadeo 5s;
+animation-iteration-count:infinite;
+}
+
+@keyframes parpadeo{
+
+0%{box-shadow:0px 0px 10px white;}
+50%{box-shadow:0px 0px 50px white;}
+100{box-shadow:0px 0px 10px white;}
+
+}
+/*ojo aplicar box-sizing:border-box;
+padding:50px; para que la imagen llegue al porcentaje deseado al volver 
+pequeña la pagina */
+
+#siis{
+
+width:10%;
+height:100px;
+font-family:arial;
+font-size:20px;
+color:white;
+text-align:left;
+background:url('../foto/siis.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+display:box;
+border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+/*ojo debo meterle box sizing y el padding para q la img no se reduzca 
+tanto al momento de reducir la pagina y no queda mas pequeña para visualizar*/
+box-sizing:border-box;
+padding:50px;
+}
+
+#senasofia{
+
+width:10%;
+height:100px;
+font-family:arial;
+font-size:20px;
+color:white;
+text-align:left;
+background:url('../foto/senasofia.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+display:box;
+border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+/*ojo debo meterle box sizing y el padding para q la img no se reduzca 
+tanto al momento de reducir la pagina y no queda mas pequeña para visualizar*/
+box-sizing:border-box;
+padding:50px;
+}
+
+
+
+#logopulsar400{
+
+width:10%;
+height:100px;
+font-family:arial;
+font-size:20px;
+color:white;
+text-align:left;
+background:url('../foto/pulsar400.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+display:box;
+border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+box-sizing:border-box;
+padding:50px;
+
+}
+#auteco{
+
+width:10%;
+height:100px;
+font-family:arial;
+font-size:20px;
+color:white;
+text-align:left;
+background:url('../foto/auteco.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+display:box;
+border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+box-sizing:border-box;
+padding:50px;
+
+}
+#logodavid{
+
+width:13%;
+height:100px;
+font-family:arial;
+font-size:20px;
+color:white;
+text-align:left;
+background:url('../foto/david.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+display:box;
+border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+box-sizing:border-box;
+padding:50px;
+
+}
+#logodragon{
+
+width:10%;
+height:100px;
+font-family:arial;
+font-size:20px;
+color:white;
+text-align:left;
+background:url('../foto/dragonsuper.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+display:box;
+border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+box-sizing:border-box;
+padding:50px;
+
+}
+
+
+video{
+	width:100%;
+	height:auto;
+}
+
+/*  aplica el estilo para el html noticiasb */
+
+
+#senasofia{
+
+width:10%;
+height:100px;
+font-family:arial;
+font-size:20px;
+color:white;
+text-align:left;
+background:url('../foto/senasofia.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+display:box;
+border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+/*ojo debo meterle box sizing y el padding para q la img no se reduzca 
+tanto al momento de reducir la pagina y no queda mas pequeña para visualizar*/
+box-sizing:border-box;
+padding:50px;
+}
+
+
+
+#auteco{
+
+width:10%;
+height:100px;
+font-family:arial;
+font-size:20px;
+color:white;
+text-align:left;
+background:url('../foto/auteco.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+display:box;
+border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+box-sizing:border-box;
+padding:50px;
+
+}
+
+#logodragon{
+
+width:10%;
+height:100px;
+font-family:arial;
+font-size:20px;
+color:white;
+text-align:left;
+background:url('../foto/dragonsuper.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+display:box;
+border-radius:0px 10px 0px 10px;
+box-shadow:0px 0px 10px white;
+float:left;
+margin:10px;
+position:absolute;
+transform:translate(-140px,0px);
+box-sizing:border-box;
+padding:50px;
+
+}
+
+
+
+/*  aplica el estilo para el html contactob */
+
+
+[required]{
+border-color:green;
+box-shadow:0px 0px 5px green;
+}
+
+:invalid{
+border-color:white;
+
+box-shadow:0px 0px 20px white;
+}
+
+form table{
+width: 60%;
+border: 0px solid white;
+padding: 0px;
+margin:auto;
+
+}
+
+form{
+font-family:Arial;
+color:black;
+text-shadow:3px 3px 5px rgba(0,0,0,0.5);
+border: 1px solid white;
+border-radius: 0px 15px 0px 15px;
+box-shadow:10px 10px 25px rgba (0,0,0,0.5);
+background: rgba(255,255,255,0.5);
+margin:auto;
+width:100%;
+padding:10px;
+}
+form input,form textarea{
+font-family:arial;
+font-size:13px;
+background:rgba(255,255,255,0.7);
+border:1px dotted white;
+box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+border-radius:0px 5px 0px 5px;
+box-sizing:border-box;
+
+
+/*agrege el width para solucionar el cuadro de texto q se salia */
+width:80%;
+}
+
+
+
+/*  Estilo para sobremib */
+
+.menu{
+    padding:0;
+    list-style:none;
+    width:100%;
+    font-size:18px;
+    font-family:Arial;
+    background:rgba(255,255,255,0.5);
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px   black;
+    border-radius:0px 20px 0px 20px;
+    text-align:center ;
+}
+ 
+.menu li a{
+    display: block;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid rgba(255,255,255, 0.2);   
+    
+    color:black;
+    text-shadow: 1px 0px 1px rgba(0,0,0,0.2);
+    padding:10px;
+    padding-left:30px;
+}
+ 
+.menu li ul li {
+    font-size:14px;
+    color:black;
+    text-shadow: 1px 0px 1px rgba(255,255,255,0.5);
+     
+}
+ 
+.menu li :hover{
+    background:rgba(255,255,255,0.5);
+    -moz-transition: background 0.3s ease-in;
+    -webkit-transition: background 0.3s ease-in;
+    -o-transition: background 0.3s ease-in;
+}
+ /*   el ul es lo que me esconde el acordeon         */
+.menu ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+    height:0;
+    overflow: hidden;
+    transition:1s;
+    text-align:center;
+    -moz-transition:1s;
+    -webkit-transition:1s;
+     
+}
+ 
+ /*   el ul es lo que me esconde el acordeon height el tamaño en q se abre el acordeon */
+.menu li:hover ul{
+    height:80px;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+ 
+.menu ul li {
+    background:rgba(255,255,255,0.5);
+}
+ 
+.menu ul li :hover {
+    background: none repeat scroll 0 0 #ccc;
+    color: black;
+    -moz-transition: color 0.4s ease;
+    -webkit-transition: color 0.4s ease;
+    -o-transition: color 0.4s ease;
+}
+
+
+
+
+
+
+
+
+
+
+/* etiquetas para el momento que la pagina mide 800px pase eso */   
+/*@media screen and (max-width:800px){*/
+/*body{background:red;}
+aside ul li{
+	width:100%;
+
+}	
+article{
+
+width:100%;	
+}
+
+
+}*/
+
+a{
+color:black;
+
+}
+
+/*  etiquetas para el momento que la pagina mide 400px pase eso  ---- pagina para ver azure como antes manage.windowsazure.com/singOut/Complete  */
+
+@media screen and (min-width:1370px){
+.contenedor{:100%;}
+
+
+
+
+article{
+
+width:100%;	
+}
+
+script{
+
+width:100%;
+
+}
+
+#iconoinicio{
+width:100%;
+}
+
+#icononoticias{
+width:100%;
+}
+
+#iconosobreMi{
+width:100%;
+}
+
+#iconocontacto{
+width:100%;
+}
+
+}
+/*  etiquetas para el momento que la pagina mide 400px pase eso    */
+
+@media screen and (max-width:400px){
+.contenedor{:100%;}
+
+
+
+article{
+
+width:100%;	
+}
+
+script{
+
+width:100%;
+
+}
+
+#iconoinicio{
+width:100%;
+}
+
+#icononoticias{
+width:100%;
+}
+
+#iconosobreMi{
+width:100%;
+}
+
+#iconocontacto{
+width:100%;
+}
+
+}
