@@ -60,7 +60,7 @@
                             <p style="text-align: right">Introduce tu email</p>
                         </td>
                         <td>
-                            <asp:TextBox ID="email" runat="server"></asp:TextBox>
+                            <asp:TextBox ID="email" runat="server" TextMode="Email"></asp:TextBox>
                         </td>
                     </tr>
                     <tr>

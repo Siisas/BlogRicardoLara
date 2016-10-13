@@ -31,3 +31,36 @@ c:\users\ricar\documentos\visual studio 2015\Projects\Blog\Blog\bin\Microsoft.Co
 c:\users\ricar\documentos\visual studio 2015\Projects\Blog\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
 c:\users\ricar\documentos\visual studio 2015\Projects\Blog\Blog\obj\Debug\Blog.dll
 c:\users\ricar\documentos\visual studio 2015\Projects\Blog\Blog\obj\Debug\Blog.pdb
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\ApplicationInsights.config
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\csc.exe
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\vbc.exe
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Blog.dll.config
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Blog.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Blog.pdb
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.AI.Web.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.AI.Web.xml
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\obj\Debug\Blog.csprojResolveAssemblyReference.cache
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\obj\Debug\Blog.dll
+C:\Users\Ricar\Source\Repos\BlogRicardoLara\Blog\obj\Debug\Blog.pdb
